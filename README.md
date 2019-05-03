@@ -1,3 +1,26 @@
-# led-race
-Minimalist car race with a strip of LEDs.
-Connect two switches between common GND and pins 6 and 7 and one led strip ws2812 or ws2813 to  GND, + 5V and A0 to a arduino Nano
+# Funny Led Race
+
+Minimal retrò car race made with LED. Remember Tron ?
+
+## Hardware 
+
+## Installation
+
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
