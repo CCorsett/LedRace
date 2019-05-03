@@ -2,21 +2,17 @@
 
 Minimal retrò car race made with LED. Remember Tron ?
 
-## Hardware 
+## Installation and Usage
 
-## Installation
+* Arduino uno REV 3 o similar
+* WS2812b Led strip
+* 5V 2.5A power alim
+* Four buttons
+* Resistor, capacitor and 8 Ohm speaker
+* Arduino IDE
+* Adafruit neopixel library
 
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
+Other information in the code 😃
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
