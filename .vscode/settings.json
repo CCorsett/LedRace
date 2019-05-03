@@ -1,0 +1,16 @@
+{
+    "doxdocgen.generic.authorName": "Christian Corsetti",
+    "doxdocgen.generic.authorEmail": "c.corsetti.01@gmail.com",
+    "doxdocgen.generic.dateFormat": "DD-MM-YYYY",
+    "doxdocgen.file.fileOrder": [
+        "file",
+        "author",
+        "brief",
+        "version",
+        "date",
+        "empty",
+        "copyright",
+        "empty",
+        "custom"
+    ],
+}
