@@ -1,6 +1,8 @@
 # Funny Led Race
+<img src="sticker-fab.png" alt="drawing" width="100" height="100"/>
 
 Minimalist car race made with WS2812b LED. Similar to [led-race](https://github.com/gbarbarov/led-race) by gbarbarov.
+
 
 ## Installation and Usage
 
