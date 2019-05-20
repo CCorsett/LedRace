@@ -1,18 +1,18 @@
 # Funny Led Race
 
-Minimal retrò car race made with LED. Remember Tron ?
+Minimalist car race made with WS2812b LED. Similar to [led-race](https://github.com/gbarbarov/led-race) by gbarbarov.
 
 ## Installation and Usage
 
-* Arduino uno REV 3 o similar
+* Arduino uno REV 3
 * WS2812b Led strip
 * 5V 2.5A power alim
-* Four buttons
+* Four arcade buttons
 * Resistor, capacitor and 8 Ohm speaker
 * Arduino IDE
 * Adafruit neopixel library
 
-Other information in the code 😃
+Other information in the code 😃.
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
