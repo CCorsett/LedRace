@@ -35,6 +35,9 @@
  * 
  *  03-05-2019 - Christian Corsetti:
  *      - Add comments and clean code.
+ *  27-05-2019 - Christian Corsetti:
+ *      - Remove loop and ramps, reduce ACEL param.
+ *      - Bug fix on loop create function: missing k.
  * **FROZEN HERE V0.0.0**
  * @endparblock
  */
@@ -103,7 +106,7 @@ byte loop_max = 5;
 /// Acceleration value. When a player pushs the button, his speed increases
 /// with this value. Otherwise his speed decreases. 
 /// An high value means more speed and power :)
-float ACEL = 0.2;
+float ACEL = 0.15;//0.2;
 /// Simulate the friction between asphalt and car's "wheels". Car speed 
 /// decreases every time with this value.
 float friction = 0.012;
@@ -159,7 +162,7 @@ void set_loop(byte high, byte start, byte center, byte end)
    
     for (int i = 0; i < (center - start); i++)
     {
-        gravity_map[start + i] = 127 - i * ();
+        gravity_map[start + i] = 127 - i * k;
     }
     gravity_map[center] = 255;
 
@@ -237,8 +240,8 @@ void setup()
     pinMode(PIN_P3, INPUT_PULLUP);
     pinMode(PIN_P4, INPUT_PULLUP);
 
-    set_ramp(28, 80, 101, 124);
-    set_ramp(26, 135, 158, 178);
+    //set_ramp(28, 80, 101, 124);
+    //set_ramp(26, 135, 158, 178);
     //set_loop(10, 20, 50, 80);
     //for (int i = 0; i < NPIXELS; i++)
     //{
